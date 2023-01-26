@@ -993,8 +993,7 @@
     
     .blue-container {
         height: 780px;
-        min-width: 1200px;
-        max-width: 1297px;
+        min-width: 1280px;
         margin-top: 50px;
         background-color: #EFEFEF;
     }
