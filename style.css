@@ -40,6 +40,7 @@
     .lessons {
         font-size: 10px;
         width: 212px;
+        min-width: 40%;
     }
 
     .head {
@@ -53,6 +54,7 @@
         height: 165.89px;
         z-index: 1;
         position: absolute;
+       
 
     }
 
@@ -100,7 +102,7 @@
         width: 80%;
     }
     .movies {
-        min-width: 50%;
+        min-width: 30%;
     }
     .head {
         display: flex;
@@ -108,7 +110,8 @@
     }
     .middleblock {
         display: flex;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
+         
     }
 
     #cameraman {
@@ -145,18 +148,18 @@
         display: flex;
         flex-wrap: wrap;
         margin-left: 30px;
-        width: 250px;
+        min-width: 50%;
     }
 
     .period p {
         width: 84px;
-        height: 18px;
-        ;
+        height: 18px;;
         font-size: 10px;
     }
 
     .period-two {
         margin-left: 40px;
+        margin-right: 40px;
     }
     h2 {
         font-size: 26px;
@@ -166,7 +169,7 @@
     .webinar {
         margin-left: 30px;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         margin-top: 15px;
     }
 
@@ -174,6 +177,7 @@
         font-family: 'Roboto';
         font-size: 10px;
         width: 170px;
+        margin-right: 40px;
     }
 
     .webinar h4 {
@@ -292,6 +296,7 @@
         padding-top: 50px;
         padding-left: 50px;
         margin-bottom: 25px;
+        min-width: 50%;
 
     }
 
@@ -312,8 +317,11 @@
     .sub-paragraph {
         display: flex;
         font-family: 'Roboto';
-        width: 350px;
         padding-left: 20px;
+    }
+    .aboutcourse {
+        width: 40%;
+        min-width: 40%;
     }
 
     .two {
@@ -324,7 +332,6 @@
         padding-left: 30px;
         font-weight: 400;
         font-size: 10px;
-        width: 138px;
     }
 
     h6 {
@@ -437,15 +444,17 @@
         margin-bottom: 5px;
         width: 360px;
         font-family: 'Roboto Slab', serif;
+        min-width: 100%;
     }
     .lessons {
-        width: 264px;
+        width: 220px;
         font-size: 12px;
     }
 
     .head {
         margin-left: 70px;
         display: flex;
+        flex-wrap: wrap;
     }
     .sittingman {
         margin-top: 10px;
@@ -723,6 +732,9 @@
     .sub-paragraph {
         display: flex;
         margin-left: 70px;
+    }
+    .aboutcourse {
+        min-width: 50%;
     }
 
     .two {
